@@ -1,94 +1,79 @@
-<html lang="en">
+<!DOCTYPE html>
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Oi eu sou o goku</title>
+    <title>Oi, eu sou o Goku!</title>
 </head>
-
 <body>
     
-<header>
-    <div id="navbar">
+    <header id="navbar">
+        <a href="https://en.dragon-ball-official.com/">
+            <img src="assets/Logo dragon ball.png" alt="Logo Dragon Ball" id="logo">
+        </a>
+        <h1>Goku: O homem mais forte de Dragon Ball</h1>
+    </header>
+
+    <main>
+        <section id="showcase">
+            <img src="assets/Curiosidades goku.jpg" alt="Goku" class="showcase_img">
+            <div class="showcase_text">
+                <h2>Este é Son Goku!</h2>
+                <p>Nascido no planeta Vegeta, ele chegou à Terra ainda bebê. O resto é história: de uma missão de domínio para se tornar o maior protetor do universo.</p>
+            </div>
+        </section>
+
+        <section id="secao_noticias">
+            <h2>Últimas Notícias</h2>
             
-            <a href="https://en.dragon-ball-official.com/">
-                <img id="Dragon_Ball" src="assets/Logo dragon ball.png" alt="Dragon ball">
-            </a>
+            <div class="container_noticias">
+                <article class="noticia">
+                    <a href="https://dragonball.fandom.com/pt-br/wiki/Dragon_Ball_Super:_A_batalha_definitiva_de_todos_os_universos!_Son_Goku_contra_Jiren!">
+                        <img src="assets/Goku vs jiren.jpg" alt="Goku vs Jiren">
+                    </a>
+                    <h3>Grande luta: Goku vs Jiren</h3>
+                    <p>Goku é escolhido para lutar contra o Jiren para salvar o mundo.</p>
+                    <time datetime="2017-10-08">8 de out. de 2017</time>
+                </article>
 
-                <h1>Goku o homem mais forte de dragon ball</h1>
+                <article class="noticia">
+                    <a href="https://www.reddit.com/r/animebrasil/">
+                        <img src="assets/Esboço dragon ball.webp" alt="Esboço Dragon Ball">
+                    </a>
+                    <h3>Clássico o melhor DB?</h3>
+                    <p>Existem pessoas que acreditam que o clássico é o melhor dragon ball.</p>
+                    <time datetime="2025-04">Abril de 2025</time>
+                </article>
 
+                <article class="noticia">
+                    <a href="https://www.cnnbrasil.com.br/entretenimento/goku-day/">
+                        <img src="assets/Gokuversões.webp" alt="Transformações do Goku">
+                    </a>
+                    <h3>Relembre as versões do Goku</h3>
+                    <p>Personagem já teve forma de gorila, criança e até morto.</p>
+                    <time datetime="2024-05-09">09/05/24</time>
+                </article>
+
+                <article class="noticia">
+                    <a href="https://www.reddit.com/r/Dragonballsuper/">
+                        <img src="assets/O poder de goku.jpg" alt="Ultra Instinct">
+                    </a>
+                    <h3>Goku UI!?</h3>
+                    <p>Como ele consegue lutar tão calmo com o Instinto Superior?</p>
+                    <time datetime="2024-02">Fevereiro de 2024</time>
+                </article>
+            </div>
+        </section>
+
+        <div class="gif_decorativo">
+            <img src="assets/Esfera do dragão gif.gif" alt="Esfera do Dragão">
         </div>
-</header>
+    </main>
 
-<main>
-
-    <section>
-       <div> 
-        <div id="showcase">
-            <img id="Curiosidades goku" class="showcase_img" src="assets/Curiosidades goku.jpg" alt="Goku @wikipedia">
-        </div>
-
-           
-       <div>
-        <div id="showcase_text">
-            <h2>Este é Son Goku!</h2>
-            <p>Nascido no planeta Vegeta, mas muito novo chegou a terra para dominar o mundo ou para salvar ele</p>
-        </div>
-
-    </section>
-
-    <h2 id="secao_noticias">Últimas Notícias</h2>
-
-    <section id="noticias">
-
-        <div class="noticia">
-            <a href="https://dragonball.fandom.com/pt-br/wiki/Dragon_Ball_Super:_A_batalha_definitiva_de_todos_os_universos!_Son_Goku_contra_Jiren!">
-                    <img id="Son_Goku_contra_Jiren" class="img_noticia" src="assets/Goku vs jiren.jpg" alt="Hora da luta do poder">
-            </a>
-            <h3 class="titulo_noticia">Grande luta goku vs Jiren</h3>
-            <p id="subtitle_luta" class="subtitulo_noticia">Goku é escolhido para lutar contra o Jiren para salvar o mundo</p>
-            <h6 class="date">8 de out. de 2017</h6>
-        </div>
-
-        <div class="noticia">
-            <a href="https://www.reddit.com/r/animebrasil/comments/1k42d85/algu%C3%A9m_al%C3%A9m_de_mim_acha_dragon_ball_cl%C3%A1ssico_o/">
-                    <img id="O clássico o melhor Dragon Ball?" class="img_noticia" src="assets/Esboço dragon ball.webp" alt="Existem pessoas que acreditam que o clássico é o melhor dragon ball">
-            </a>
-            <h3 class="titulo_noticia">Clássico o melhor DB?</h3>
-            <p id="subtitle_classico" class="subtitulo_noticia">Existem pessoas que acreditam que o clássico é o melhor dragon ball.</p>
-            <h6 class="date">Abril de 2025</h6>
-        </div>
-
-        <div class="noticia">
-            <a href="https://www.cnnbrasil.com.br/entretenimento/goku-day-relembre-principais-versoes-do-protagonista-de-dragon-ball/">
-                    <img id="goku_transformacoes" class="img_noticia" src="assets/Gokuversões.webp" alt="Transformações">
-            </a>
-            <h3 class="titulo_noticia">Relembre as principais versões do Goku</h3>
-            <p id="subtitle_transformacoes" class="subtitulo_noticia">Personagem já teve forma de gorila, criança e até morto.</p>
-            <h6 class="date">09/05/24</h6>
-        </div>
-
-        <div class="noticia">
-            <a href="https://www.reddit.com/r/Dragonballsuper/comments/1dkr5yg/gokus_ui_sign_cui_does_it_increase_his_power_odd/?tl=pt-br">
-                    <img id="Goku_UI" class="img_noticia" src="assets/O poder de goku.jpg" alt="Ultra instinc">
-            </a>
-            <h3 class="titulo_noticia">Goku UI!?</h3>
-            <p id="subtitle_sonic_vs_surge" class="subtitulo_noticia">Como ele consegue lutar tão calmo!?</p>
-            <h6 class="date">Fevereiro de 2024</h6>
-        </div>
-
-    </section>
-
-    <div class="gif_decorativo">
-        <img src="assets/Esfera do dragão gif.gif" alt="Esferas">
-    </div>
-    
-</main>
-
-<footer id="copyright">
-    <p>Todos os direitos reservados a @Akira Toriyama. Site feito por Jaime Rodrigues Santarém Pereira.</p>
-</footer>
+    <footer id="copyright">
+        <p>&copy; Akira Toriyama. Desenvolvido por Jaime Rodrigues Santarém Pereira.</p>
+    </footer>
 
 </body>
-
 </html>
